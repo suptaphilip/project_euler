@@ -40,7 +40,7 @@ public class Main {
 	public static int largestDivisor(int compositeN) {
 		int divisor = 1;
 
-		for (int i = 2; i < compositeN / 2; i++) {
+		for (int i = 2; i < compositeN; i++) {
 			if (compositeN % i == 0) {
 				divisor = i;
 			}
@@ -49,15 +49,12 @@ public class Main {
 	}
 
 	public static int getPrimeFact(int d) {
-		int maxPrime = 2;
+		int MaxPrime = d;
 		for (int i = 2; i < d; i++) {
 			if (d % i == 0) {
-				maxPrime = i;
+				MaxPrime = getPrimeFact(i);
 			}
 		}
-		if (maxPrime != 2) {
-			return maxPrime;
-		}
-		return d;
+		return MaxPrime;
 	}
 }
