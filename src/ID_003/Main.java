@@ -26,8 +26,13 @@ public class Main {
 			Scanner scanner = new Scanner(theLine);
 			while (scanner.hasNext()) {
 				int compositeN = scanner.nextInt();
-				int divisor = largestDivisor(compositeN);
-				System.out.println(getPrimeFact(divisor));
+				if (compositeN == 1) {
+					System.out.println("No prime factors.");
+				} else {
+					int divisor = largestDivisor(compositeN);
+
+					System.out.println(getPrimeFact(divisor));
+				}
 			}
 		}
 	}
@@ -55,5 +60,4 @@ public class Main {
 		}
 		return d;
 	}
-
 }
