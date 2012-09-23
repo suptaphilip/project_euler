@@ -1,0 +1,43 @@
+# General projects
+Gemfile.lock
+build_output
+build_artifacts
+thumbs.db
+*.classpath
+
+# .NET Projects
+*.csproj.user
+*.suo
+UpgradeLog.XML
+_UpgradeReport_Files
+*.pdb
+source/**/obj
+source/**/bin
+bin/
+obj/
+*.sln.docstates
+
+# ReSharper
+_[Rr]e[Ss]harper.*
+*.[Rr]e[Ss]harper.user
+*.[Rr]e[Ss]harper
+*.cache
+
+# Ruby Projects
+*.gem
+*.rbc
+.bundle
+.config
+.yardoc
+InstalledFiles
+_yardoc
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+.idea
+
+
