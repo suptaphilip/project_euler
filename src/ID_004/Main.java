@@ -1,3 +1,5 @@
+package ID_004;
+
 
 /**
  * Find the largest palindrome made from the product of two 3-digit numbers.
@@ -25,52 +27,50 @@ public static void main(String[] args) {
 		if (temp != 0) 
 		{
 	
-		    int m = temp/n;
+		    	int m = temp/n;
 	
 			System.out.println(n + " X " + m);
 
-				break;
-			
+			break;
 		}
 
 		else
 
 		{
-			
+
 		   n--;
 			
 		}
-	
+
 	}
-	
+
 }
 
 	
 
 
 public static int getProduct(int n) {
-	
+
 	int result = 0; // is acting like a boolean
 
 		for (int i = max; i >= n; i--) 
 		{
-			
+
 			int product = n * i;
-	
+
 			if (isPalidrome(product)) 
 			{
-		
+
 				return product;
 			
 			}
-		
+
 		}
-		
+
 	return result;
-	
+
 }
 
-	
 
 
 public static boolean isPalidrome(int p) {
@@ -99,15 +99,15 @@ public static boolean isPalidrome(int p) {
 	
 		if (array[i] != yarra[i]) 
 		{
-				
+
 			return false;
 		
 		}
-		
+
 	}
-		
+
 	return true;
-	
+
 }
 
 
