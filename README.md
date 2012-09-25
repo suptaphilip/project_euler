@@ -18,3 +18,9 @@ ID 003
 
 Find the largest prime factor of a composite number.
 
+
+ID 004
+------
+
+Find the largest palindrome made from the product of two 3-digit numbers.
+
