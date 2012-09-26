@@ -24,3 +24,7 @@ ID 004
 
 Find the largest palindrome made from the product of two 3-digit numbers.
 
+ID 005
+------
+
+What is the smallest number divisible by each of the numbers 1 to 20?
