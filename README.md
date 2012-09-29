@@ -33,3 +33,8 @@ ID 006
 ------
 
 Find the difference between the sum of the squares and the square of the sum.
+
+ID 007
+------
+
+Find the 10001st prime.
