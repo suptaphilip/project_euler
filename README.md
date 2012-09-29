@@ -38,3 +38,9 @@ ID 007
 ------
 
 Find the 10001st prime.
+
+
+ID 008
+------
+
+Discover the largest product of five consecutive digits in the 1000-digit number.
