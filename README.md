@@ -44,3 +44,8 @@ ID 008
 ------
 
 Discover the largest product of five consecutive digits in the 1000-digit number.
+
+ID 009
+------
+
+Find the only Pythagorean triplet, {a, b, c}, for which a + b + c = 1000.

@@ -6,7 +6,6 @@ package ID_009;
 
 public class Main {
 	static int counter = 1;
-	static final int constraint = 1000;
 
 	public static void main(String[] args) {
 		boolean isTriplet = false;
@@ -41,7 +40,7 @@ public class Main {
 		int b = 2 * m * n;
 		int c = (m * m) + (n * n);
 
-		if (a + b + c == constraint) {
+		if (a + b + c == 1000) {
 			return a * b * c;
 		}
 		return 0;
